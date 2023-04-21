@@ -12,7 +12,7 @@ variable "ace_password" {
 }
 
 variable "aws_account_name" {
-  default = "aws-account"
+  default = "assumed-role/AWSReservedSSO_SubAccountAdmin_6da89bc6a3b8ca4b/sbrewer"
 }
 
 variable "aws_transit_instance_size" {
